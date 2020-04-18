@@ -21,30 +21,31 @@
         </nav>
         <h2>Contato</h2>
     </header>
-    <main>
-        <div>
-            <form>
-                <div>
-                    <h3>Deixe seu comentario sobre o site</h3>
-                    <h4>Esse simbolo "*" significa campo obrigatório</h4>
-                </div>
-                <div>
-                    <label for="email">*Digite seu email:</label>
-                    <input type="email" name="email" id="email">
-                </div>
-                <div>
-                    <label for="comentario">*Digite seu comentario:</label>
-                    <textarea name="comentario" id="" cols="30" rows="10"></textarea>
-                </div>
-            </form>
-        </div>
-        <div>
-            <p>Formas de contato:</p>
-        <ul>
-            <li>Email: kaparecido483@gmail.com</li>
-            <li><a href="https://www.linkedin.com/in/kevyn-aparecido-28780b1a3">Meu LinkedIn</a></li>
-            <li><a href="https://github.com/Kevyn02">GitHub</a></li>
-        </ul>
+    <main id="contato">
+        <form>
+            <div>
+                <h3>Deixe seu comentario sobre o site</h3>
+                <h4>Esse simbolo * significa campo obrigatório</h4>
+            </div>
+            <div class="form-control">
+                <label for="email">*Digite seu email:</label>
+                <input type="email" name="email" id="email" required>
+            </div>
+            <div class="form-control">
+                <label for="comentario">*Digite seu comentario:</label>
+                <textarea name="comentario" id="comentario" required></textarea>
+            </div>
+            <div>
+                <button type="submit">Enviar</button>
+            </div>
+        </form>
+        <div class="border">
+            <h3>Formas de contato:</h3>
+            <ul>
+                <li>Email: kaparecido483@gmail.com</li>
+                <li><a href="https://www.linkedin.com/in/kevyn-aparecido-28780b1a3">Meu LinkedIn</a></li>
+                <li><a href="https://github.com/Kevyn02">GitHub</a></li>
+            </ul>
         </div>
     </main>
 </body>
