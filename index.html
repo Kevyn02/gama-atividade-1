@@ -10,21 +10,26 @@
 
 <body>
     <header>
-        <h1>Meu portal de notícias</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html" class="active">Home</a></li>
-                <li><a href="sobre.html">Sobre</a></li>
-                <li><a href="contato.html">Contato</a></li>
-                <li><a href="saiba_mais.html">Saiba Mais</a></li>
-            </ul>
-        </nav>
-        <h2>Veja algumas notícias sobre o COVID-19</h2>
+        <div id="navbar">
+            <div class="col-6">
+                <h1>Meu portal de notícias</h1>
+            </div>
+            <nav class="col-6">
+                <ul>
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                    <li><a href="saiba_mais.html">Saiba Mais</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
     <main id="card-noticias">
-        <div id="card-text" class="col-12">
-            <section class="noticias col-6">
-                <div class="noticias-titulo">
+        <h2>Veja algumas notícias sobre o COVID-19</h2>
+        <hr>
+        <div id="card-text">
+            <div class="noticias">
+                <div>
                     <h3>Espanha e Japão vão pagar auxílio à população por perdas com Covid-19</h3>
                     <p>Os governos do Japão e da Espanha anunciaram que darão auxílios aos cidadãos por conta das perdas
                         com
@@ -50,29 +55,14 @@
                         uma
                         primeira parcela, o governo planeja continuar com esses desembolsos se a pandemia de coronavírus
                         continuar.</p>
-                    <h4>Espanha</h4>
-                    <p>Na Espanha, o governo planeja pagar uma renda mensal básica para cerca de um milhão das famílias
-                        mais
-                        pobres do país para ajudá-las a enfrentar o impacto do novo coronavírus, disse o ministro da
-                        Previdência
-                        Social, José Luis Escrivá, nesta sexta-feira (18).</p>
-                    <p>Aqueles que receberem a renda básica, a ser aprovada pelo gabinete em maio, terão incentivos para
-                        encontrar trabalho, como a permissão para combinar a quantia mensal com os salários de um novo
-                        emprego
-                        durante certo período, disse Escrivá à estação de rádio COPE.</p>
-                    <p>Ainda não foi decidido quanto será pago por mês e Escrivá se recusou a dizer quanto custaria ao
-                        governo,
-                        embora tenha afirmado que a medida seria financiada com nova dívida pública. Ele acrescentou que
-                        até
-                        um
-                        quinto das famílias espanholas têm uma renda inferior a 246 euros por mês.</p>
-                    <p>Para mais informações da noticia clique <a
+                    <p>Para ver a noticia completa clique <a
                             href="https://g1.globo.com/economia/noticia/2020/04/17/japao-vai-pagar-us-900-para-cada-cidadao-por-perdas-causadas-pelo-covid-19.ghtml">aqui</a>
                     </p>
+                    <hr>
                 </div>
-            </section>
-            <section class="noticias col-6">
-                <div class="noticias-titulo">
+            </div>
+            <div class="noticias">
+                <div>
                     <h3>Após mais confirmações de covid-19, Paraguai prorroga quarentena até dia 26 de abril</h3>
                     <p>Isolamento total terminaria domingo, dia 19, mas país registrou mais casos da doença provocada
                         pelo
@@ -92,44 +82,120 @@
                         Ponta
                         Porã.</p>
                     <p>O Paraguai fecha as fronteiras desde 16 de março.</p>
-                    <p>Na fronteira com o Brasil, o Exército entrevista quem tenta atravessar e só é autorizada a
-                        passagem
-                        em
-                        situações específicas. Na região de Mato Grosso do Sul, moradores do Paraguai fizeram barreiras
-                        com
-                        pneus e fita de isolamento para impedir as passagens.</p>
-                    <p>Também para impedir as travessias irregulares, o Exército paraguaio colocou arame farpado em
-                        diversos
-                        pontos.</p>
-                    <p>Para mais informações da noticia clique <a
+                    <p>Para ver a noticia completa clique <a
                             href="https://g1.globo.com/ms/mato-grosso-do-sul/noticia/2020/04/17/apos-mais-confirmacoes-de-covid-19-paraguai-prorroga-quarentena-ate-dia-26-de-abril.ghtml">aqui</a>
                     </p>
+                    <hr>
                 </div>
-            </section>
+            </div>
+            <div class="noticias">
+                <div>
+                    <h3>Europa ultrapassa marca de 100 mil mortos por Covid-19, aponta universidade</h3>
+                    <p>Balanço da Universidade Johns Hopkins registra 100.881 mortes em solo europeu, com mais de 1
+                        milhão de casos.</p>
+                </div>
+                <div>
+                    <p>A Europa ultrapassou, neste domingo (19), a marca de 100 mil mortes por Covid-19, doença causada
+                        pelo novo coronavírus. Ao todo, 100.881 pessoas perderam a vida na pandemia em solo europeu,
+                        segundo levantamento da universidade americana Johns Hopkins.</p>
+                    <p>O continente também ultrapassou a marca de 1 milhão de casos: são 1.083.583 de infecções, segundo
+                        última atualização da universidade, por volta de 11h20 deste domingo.</p>
+                    <p>A Itália é o país com maior número de mortos: 23.227. Em seguida vêm Espanha (20.453), França
+                        (19.349), Reino Unido (16.095) e Bélgica (5.683).</p>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>País</th>
+                                <th>Casos</th>
+                                <th>Mortes</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Itália</td>
+                                <td>175.925</td>
+                                <td>23.227</td>
+                            </tr>
+                            <tr>
+                                <td>Espanha</td>
+                                <td>195.944</td>
+                                <td>20.453</td>
+                            </tr>
+                            <tr>
+                                <td>França</td>
+                                <td>152.978</td>
+                                <td>19.349</td>
+                            </tr>
+                            <tr>
+                                <td>Reino Unido</td>
+                                <td>121.168</td>
+                                <td>16.095</td>
+                            </tr>
+                            <tr>
+                                <td>Bélgica</td>
+                                <td>38.496</td>
+                                <td>5.683</td>
+                            </tr>
+                            <tr>
+                                <td>Alemanha</td>
+                                <td>143.779</td>
+                                <td>4.543</td>
+                            </tr>
+                            <tr>
+                                <td>Holanda</td>
+                                <td>32.834</td>
+                                <td>3.696</td>
+                            </tr>
+                            <tr>
+                                <td>Suécia</td>
+                                <td>14.385</td>
+                                <td>1.540</td>
+                            </tr>
+                            <tr>
+                                <td>Suíça</td>
+                                <td>27.740</td>
+                                <td>1.368</td>
+                            </tr>
+                            <tr>
+                                <td>Portugal</td>
+                                <td>20.206</td>
+                                <td>714 </td>
+                            </tr>
+                            <tr>
+                                <td>...</td>
+                                <td>...</td>
+                                <td>...</td>
+                            </tr>
+                    </table>
+                    <p>Para ver a noticia completa clique <a
+                            href="https://g1.globo.com/bemestar/coronavirus/noticia/2020/04/19/europa-ultrapassa-marca-de-100-mil-mortos-por-covid-19-aponta-universidade.ghtml">aqui</a>
+                    </p>
+                    <hr>
+                </div>
+            </div>
         </div>
         <div id="card-video" class="col-12">
-            <section class="noticias col-6">
+            <div class="noticias">
                 <h3>Veja esse video</h3>
                 <iframe src="https://www.youtube.com/embed/0N7SBfTsI3s" frameborder="0"
                     allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen></iframe>
-            </section>
-            <section class="noticias col-6">
+                <hr>
+            </div>
+            <div class="noticias">
                 <h3>Veja esse video</h3>
                 <iframe src="https://www.youtube.com/embed/cBuF9_YBaDM" frameborder="0"
                     allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen></iframe>
-            </section>
-        </div>
-        <div id="card-audio" class="col-12">
-            <section class="noticias col-6">
-                <h3>Ouça esse audio</h3>
-                <audio src=""></audio>
-            </section>
-            <section class="noticias col-6">
-                <h3>Ouça esse audio</h3>
-                <audio src=""></audio>
-            </section>
+                <hr>
+            </div>
+            <div class="noticias">
+                <h3>Veja esse video</h3>
+                <iframe src="https://www.youtube.com/embed/2DAIe1SlLMo" frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+                <hr>
+            </div>
         </div>
     </main>
 </body>
